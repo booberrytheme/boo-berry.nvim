@@ -1,4 +1,7 @@
-# 🫐 boo-berry.nvim
+<h3 align="center">
+    <img src="assets/imgs/booberry-logo-circle.png" width="100" alt="Logo"/><br/>
+ BooBerry for <a href="https://github.com/ghostty-org">Neovim</a>
+</h3>
 
 A Neovim colorscheme ported from Helix editor's **boo_berry** theme (originally by [bootra](https://github.com/helix-editor/helix/blob/master/runtime/themes/boo_berry.toml)).
 
@@ -47,7 +50,7 @@ _Warning: May cause excessive "ooh, pretty" moments. Side effects include showin
 
 ```lua
 {
-  "mrpbennett/boo-berry.nvim",
+  "booberrytheme/boo-berry.nvim",
   lazy = false,
   priority = 1000,
   config = function()
@@ -61,7 +64,7 @@ _Warning: May cause excessive "ooh, pretty" moments. Side effects include showin
 
 ```lua
 return {
-  { "mrpbennett/boo-berry.nvim" },
+  { "booberrytheme/boo-berry.nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
@@ -75,7 +78,7 @@ return {
 
 ```lua
 use {
-  "mrpbennett/boo-berry.nvim",
+  "booberrytheme/boo-berry.nvim",
   config = function()
     vim.cmd([[colorscheme boo-berry]])
   end,
@@ -158,23 +161,15 @@ local colors = require("boo-berry").colors()
 - noice.nvim
 - nvim-notify
 
-## Ghostty
-
-Ghostty theme created by [dbozbay](https://github.com/dbozbay) just add [./extras/ghostty/boo-berry](./extras/ghostty/boo-berry) to your `.config/ghostty/themes` directory and add the following to your `config`
-
-```
-theme = boo-berry
-```
-
-![ghostty](assets/imgs/ghostty.png)
-
 ## Credits
 
 - **boo_berry** helix theme by [bootra](https://github.com/helix-editor/helix/blob/master/runtime/themes/boo_berry.toml)
 - Plugin architecture from [Mofiqul/dracula.nvim](https://github.com/Mofiqul/dracula.nvim)
-- Ghostty theme from [https://github.com/dbozbay](dbozbay)
 
-## License
+<p align="center">
+ Copyright &copy; 2026-present <a href="https://github.com/booberrytheme" target="_blank">BooBerrryTheme Org</a>
+</p>
 
-MIT
-# booberry.nvim
+<p align="center">
+ <a href="https://github.com/"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
+</p>
