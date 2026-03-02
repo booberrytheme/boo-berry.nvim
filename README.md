@@ -1,6 +1,6 @@
 <h3 align="center">
     <img src="assets/imgs/booberry-logo-circle.png" width="100" alt="Logo"/><br/>
- BooBerry for <a href="https://github.com/ghostty-org">Neovim</a>
+ BooBerry for <a href="https://neovim.io">Neovim</a>
 </h3>
 
 <p align="center">
